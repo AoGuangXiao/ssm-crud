@@ -1,0 +1,3 @@
+com\agx\crud\controller\DepartmentController.class
+com\agx\crud\service\DepartmentService.class
+com\agx\crud\pojo\Msg.class

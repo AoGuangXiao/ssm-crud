@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <settings>
+        <!-- 配置驼峰命名规则 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!-- 给pojo包下的实体类起别名 -->
+    <typeAliases>
+        <package name="com.agx.crud.pojo"/>
+    </typeAliases>
+    
+    <!-- 添加插件 -->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 分页页码合理化参数，当查询页<=0或>=最大数时查询第一页或最后一页 -->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
+    
+</configuration>
