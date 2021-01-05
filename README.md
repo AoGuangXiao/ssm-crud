@@ -1,4 +1,3 @@
-# ssm-crud
 尚硅谷SSM框架实战(不如改成Ajax教学)：完成对用户信息的增删改查。
 
 按照B站尚硅谷框架练习视频完成的Demo，使用了bootstrap，jQuery前端框架，Spring，Springmvc，mybatis后端框架，MySQL数据库，tomcat7.0服务器。
